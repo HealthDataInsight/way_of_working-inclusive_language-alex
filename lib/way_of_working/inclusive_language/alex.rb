@@ -1,9 +1,11 @@
 # frozen_string_literal: true
 
 require 'way_of_working/cli'
+require_relative 'alex/paths'
+require_relative 'alex/version'
+
 require_relative 'alex/generators/exec'
 require_relative 'alex/generators/init'
-require_relative 'alex/version'
 
 module WayOfWorking
   module InclusiveLanguage

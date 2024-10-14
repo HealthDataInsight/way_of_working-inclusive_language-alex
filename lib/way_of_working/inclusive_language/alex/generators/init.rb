@@ -11,7 +11,7 @@ module WayOfWorking
         class Init < Thor::Group
           include Thor::Actions
 
-          source_root ::WayOfWorking.source_root
+          source_root ::WayOfWorking::InclusiveLanguage::Alex.source_root
 
           def copy_inclusive_language_github_workflow_action
             copy_file '.github/workflows/inclusive-language.yml'

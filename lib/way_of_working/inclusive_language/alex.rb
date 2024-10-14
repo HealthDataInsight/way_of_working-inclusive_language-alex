@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'way_of_working'
+require 'way_of_working/cli'
 require_relative 'alex/generators/exec'
 require_relative 'alex/generators/init'
 require_relative 'alex/version'

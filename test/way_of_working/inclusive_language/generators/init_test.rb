@@ -7,7 +7,7 @@ module WayOfWorking
       module Generators
         # This class tests the InclusiveLanguage::Init generator
         class InitTest < Rails::Generators::TestCase
-          tests WayOfWorking::Generators::InclusiveLanguage::Init
+          tests WayOfWorking::InclusiveLanguage::Alex::Generators::Init
           destination WayOfWorking.root.join('tmp/generators')
           setup :prepare_destination
 

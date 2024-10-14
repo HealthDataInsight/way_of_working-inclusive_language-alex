@@ -86,8 +86,8 @@ file safety:
     safe_revision:
   lib/way_of_working/inclusive_language/alex/templates/.alexrc:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 7fc8c5bcd4a83faea1e0d6a950d7b2a2c0abcbf7
   lib/way_of_working/inclusive_language/alex/templates/.github/workflows/inclusive-language.yml:
     comments:
     reviewed_by: timgentry

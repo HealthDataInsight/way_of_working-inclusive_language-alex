@@ -2,20 +2,20 @@
 file safety:
   ".alexrc":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".github/linters/.markdown-link-check.json":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".github/linters/rubocop_defaults.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".github/workflows/inclusive-language.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".github/workflows/main.yml":
     comments:
     reviewed_by:
@@ -26,36 +26,40 @@ file safety:
     safe_revision:
   ".gitignore":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".mega-linter.yml":
     comments:
     reviewed_by:
     safe_revision:
   ".rubocop":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   CHANGELOG.md:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 1d4e06cb66ab7a0ccfcb69da46e3a50830134c72
+  CODE_OF_CONDUCT.md:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: 1d4e06cb66ab7a0ccfcb69da46e3a50830134c72
   Gemfile:
     comments:
     reviewed_by:
     safe_revision:
   LICENSE.txt:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 60dabfa968761af6f34984036e86dbcceb8dcfd0
   README.md:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 4ee26c5e2231db7c66da7b19ed57dc20cf47d483
   Rakefile:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 170b6c5fa47fe7c79444328450c0e633accb9431
   bin/console:
     comments:
     reviewed_by:
@@ -82,8 +86,8 @@ file safety:
     safe_revision:
   lib/way_of_working/inclusive_language/alex/plugin.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: '0368186f59eedacd1a56968a8bc4c54033ca91ee'
   lib/way_of_working/inclusive_language/alex/templates/.alexrc:
     comments:
     reviewed_by: timgentry
@@ -92,6 +96,10 @@ file safety:
     comments:
     reviewed_by: timgentry
     safe_revision: fd5667379c1f14a71bb4de661515ca53d9f10941
+  lib/way_of_working/inclusive_language/alex/templates/docs/way_of_working/inclusive-language.md:
+    comments:
+    reviewed_by:
+    safe_revision:
   lib/way_of_working/inclusive_language/alex/version.rb:
     comments:
     reviewed_by:

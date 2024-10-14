@@ -1,5 +1,10 @@
 # WayOfWorking::InclusiveLanguage::Alex
 
+<!-- HDI Way of Working: Badge Holder Start -->
+[![HDI Way of Working](https://img.shields.io/badge/HDI-Way%20of%20Working-8169e3?labelColor=000)](https://healthdatainsight.github.io/way_of_working/)
+<!-- HDI Way of Working: Badge Holder End -->
+
+
 TODO: Delete this and the text below, and describe your gem
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/way_of_working/inclusive_language/alex`. To experiment with that code, run `bin/console` for an interactive prompt.

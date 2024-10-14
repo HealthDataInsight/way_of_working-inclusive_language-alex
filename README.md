@@ -4,7 +4,11 @@
 [![HDI Way of Working](https://img.shields.io/badge/HDI-Way%20of%20Working-8169e3?labelColor=000)](https://healthdatainsight.github.io/way_of_working/)
 <!-- HDI Way of Working: Badge Holder End -->
 
-This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [alex](https://alexjs.com) to implement checks for inclusive language, both at the command line and as a GitHub workflow.
+Using insensitive and inconsiderate language can cause harm to others, create barriers to communication, and damage relationships. It can make people feel excluded, disrespected, and devalued and may perpetuate negative stereotypes and biases. When we use insensitive or offensive language, we undermine our ability to connect with others and build trust.
+
+Therefore, it is essential to be mindful of the impact of our words and to choose language that is respectful, inclusive, and considerate of others. Doing so can create a more welcoming and inclusive environment for everyone, fostering greater understanding, empathy, and cooperation.
+
+This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/way_of_working) framework. It uses [alex](https://alexjs.com) for automated testing of inclusive language, both at the command line and as a GitHub workflow.
 
 ## Installation
 

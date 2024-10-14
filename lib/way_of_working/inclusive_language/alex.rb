@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 require 'way_of_working'
-require_relative 'alex/inclusive_language/generators/exec'
-require_relative 'alex/inclusive_language/generators/init'
+require_relative 'alex/generators/exec'
+require_relative 'alex/generators/init'
 require_relative 'alex/version'
 
 module WayOfWorking
@@ -17,7 +17,7 @@ end
 module WayOfWorking
   # This class defines the exec (i.e. run) parent command
   class Exec
-    register(Alex::InclusiveLanguage::Generators::Exec, 'inclusive_language', 'inclusive_language',
+    register(InclusiveLanguage::Alex::Generators::Exec, 'inclusive_language', 'inclusive_language',
              <<~LONGDESC)
                Description:
                    This runs inclusive language tests on this project
@@ -29,7 +29,7 @@ module WayOfWorking
 
   # This class defines the "init" parent command
   class Init < SubCommandBase
-    register(Alex::InclusiveLanguage::Generators::Init, 'inclusive_language', 'inclusive_language',
+    register(InclusiveLanguage::Alex::Generators::Init, 'inclusive_language', 'inclusive_language',
              <<~LONGDESC)
                Description:
                    Installs alex config file into the project

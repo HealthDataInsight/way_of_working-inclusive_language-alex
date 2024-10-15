@@ -2,9 +2,9 @@
 
 require 'pathname'
 
-# Mixin that provides a couple of pathname convenience methods
 module WayOfWorking
   module InclusiveLanguage
+    # Mixin that provides a couple of pathname convenience methods
     module Alex
       class << self
         def root

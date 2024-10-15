@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'thor'
-require 'way_of_working/paths'
 
 module WayOfWorking
   module InclusiveLanguage

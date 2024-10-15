@@ -2,21 +2,18 @@
 
 require 'way_of_working/cli'
 require_relative 'alex/paths'
-require_relative 'alex/version'
+require 'zeitwerk'
 
-require_relative 'alex/generators/exec'
-require_relative 'alex/generators/init'
+loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::InclusiveLanguage)
+loader.setup
 
 module WayOfWorking
   module InclusiveLanguage
     module Alex
       class Error < StandardError; end
-      # Your code goes here...
     end
   end
-end
 
-module WayOfWorking
   module SubCommands
     # This reopens the "way_of_working exec" (i.e. run) sub command
     class Exec

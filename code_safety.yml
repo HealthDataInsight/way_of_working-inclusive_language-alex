@@ -15,23 +15,23 @@ file safety:
   ".github/workflows/inclusive-language.yml":
     comments:
     reviewed_by: timgentry
-    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
+    safe_revision: 47747ff1226110125360da3ebaeba5a806d11bc8
   ".github/workflows/main.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 5ed52d07a2ccffc26ac25920d755cc279bc9f562
   ".github/workflows/mega-linter.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 5ed52d07a2ccffc26ac25920d755cc279bc9f562
   ".gitignore":
     comments:
     reviewed_by: timgentry
     safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".mega-linter.yml":
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: b510b12779c670e25fd7e8a625901281ce758101
   ".rubocop":
     comments:
     reviewed_by: timgentry
@@ -45,6 +45,10 @@ file safety:
     reviewed_by: timgentry
     safe_revision: 1d4e06cb66ab7a0ccfcb69da46e3a50830134c72
   Gemfile:
+    comments:
+    reviewed_by: timgentry
+    safe_revision: dcf5e798cb521d2105bf26c8b311127482a99f29
+  Gemfile.lock:
     comments:
     reviewed_by:
     safe_revision:
@@ -62,12 +66,12 @@ file safety:
     safe_revision: 170b6c5fa47fe7c79444328450c0e633accb9431
   bin/console:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 60dabfa968761af6f34984036e86dbcceb8dcfd0
   bin/setup:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: timgentry
+    safe_revision: 60dabfa968761af6f34984036e86dbcceb8dcfd0
   lib/way_of_working/inclusive_language/alex.rb:
     comments:
     reviewed_by:
@@ -87,7 +91,7 @@ file safety:
   lib/way_of_working/inclusive_language/alex/plugin.rb:
     comments:
     reviewed_by: timgentry
-    safe_revision: '0368186f59eedacd1a56968a8bc4c54033ca91ee'
+    safe_revision: af04d9e3fa5fac52fecefad9253b4fd60f76ee45
   lib/way_of_working/inclusive_language/alex/templates/.alexrc:
     comments:
     reviewed_by: timgentry

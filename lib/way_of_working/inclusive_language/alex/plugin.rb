@@ -1,6 +1,6 @@
 require 'way_of_working/inclusive_language/alex'
 
-# Add any plug specific code here
+# Add any plugin specific code here
 module WayOfWorking
   module InclusiveLanguage
     module Alex

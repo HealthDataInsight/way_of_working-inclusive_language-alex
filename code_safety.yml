@@ -82,8 +82,8 @@ file safety:
     safe_revision: 84863fab48505352f891396e413d1c9eceed586f
   lib/way_of_working/inclusive_language/alex/generators/init.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: 2a1ea98bc5724075c2d026181744315f458f0f35
+    reviewed_by: timgentry
+    safe_revision: 2fe5df2e8b4a4a6aeafd37de170ffc84ad951e06
   lib/way_of_working/inclusive_language/alex/paths.rb:
     comments:
     reviewed_by: shilpigoeldev
@@ -122,8 +122,8 @@ file safety:
     safe_revision: 2a1ea98bc5724075c2d026181744315f458f0f35
   test/way_of_working/inclusive_language/generators/init_test.rb:
     comments:
-    reviewed_by: shilpigoeldev
-    safe_revision: 2a1ea98bc5724075c2d026181744315f458f0f35
+    reviewed_by: timgentry
+    safe_revision: 2fe5df2e8b4a4a6aeafd37de170ffc84ad951e06
   way_of_working-inclusive_language-alex.gemspec:
     comments:
     reviewed_by: shilpigoeldev

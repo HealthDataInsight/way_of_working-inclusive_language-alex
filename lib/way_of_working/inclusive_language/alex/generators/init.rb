@@ -19,6 +19,10 @@ module WayOfWorking
           def copy_alexrc_file
             copy_file '.alexrc'
           end
+
+          def copy_way_of_working_documentation
+            copy_file 'docs/way_of_working/inclusive-language.md'
+          end
         end
       end
     end

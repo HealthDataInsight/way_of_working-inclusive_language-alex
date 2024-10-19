@@ -5,6 +5,7 @@ require_relative 'alex/paths'
 require 'zeitwerk'
 
 loader = Zeitwerk::Loader.for_gem_extension(WayOfWorking::InclusiveLanguage)
+loader.ignore("#{__dir__}/alex/plugin.rb")
 loader.setup
 
 module WayOfWorking

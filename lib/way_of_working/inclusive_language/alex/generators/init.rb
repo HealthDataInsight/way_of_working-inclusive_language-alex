@@ -16,6 +16,10 @@ module WayOfWorking
             copy_file '.github/workflows/inclusive-language.yml'
           end
 
+          def copy_alexignore_file
+            copy_file '.alexignore'
+          end
+
           def copy_alexrc_file
             copy_file '.alexrc'
           end

@@ -20,12 +20,14 @@ module WayOfWorking
             run_generator
 
             assert_file '.github/workflows/inclusive-language.yml'
+            assert_file '.alexignore'
             assert_file '.alexrc'
             assert_file 'docs/way_of_working/inclusive-language.md'
 
             run_generator [], behavior: :revoke
 
             assert_no_file '.github/workflows/inclusive-language.yml'
+            assert_no_file '.alexignore'
             assert_no_file '.alexrc'
             assert_no_file 'docs/way_of_working/inclusive-language.md'
           end

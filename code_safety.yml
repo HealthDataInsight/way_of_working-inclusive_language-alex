@@ -62,8 +62,8 @@ file safety:
     safe_revision: 321bc80b15da3c679252c5a507115396d9fcbd25
   Rakefile:
     comments:
-    reviewed_by: timgentry
-    safe_revision: 170b6c5fa47fe7c79444328450c0e633accb9431
+    reviewed_by: shilpigoeldev
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   bin/console:
     comments:
     reviewed_by: timgentry
@@ -75,23 +75,23 @@ file safety:
   lib/way_of_working/inclusive_language/alex.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 2a1ea98bc5724075c2d026181744315f458f0f35
+    safe_revision: 321bc80b15da3c679252c5a507115396d9fcbd25
   lib/way_of_working/inclusive_language/alex/generators/exec.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 84863fab48505352f891396e413d1c9eceed586f
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   lib/way_of_working/inclusive_language/alex/generators/init.rb:
     comments:
     reviewed_by: timgentry
     safe_revision: 321bc80b15da3c679252c5a507115396d9fcbd25
   lib/way_of_working/inclusive_language/alex/github_audit_rule.rb:
     comments:
-    reviewed_by:
-    safe_revision:
+    reviewed_by: shilpigoeldev
+    safe_revision: 321bc80b15da3c679252c5a507115396d9fcbd25
   lib/way_of_working/inclusive_language/alex/paths.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: af04d9e3fa5fac52fecefad9253b4fd60f76ee45
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   lib/way_of_working/inclusive_language/alex/plugin.rb:
     comments:
     reviewed_by: timgentry
@@ -119,15 +119,15 @@ file safety:
   test/test_helper.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: e7292953bf513b7a5d3e5e191c5b411e8790e308
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   test/way_of_working/inclusive_language/alex_test.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: e7292953bf513b7a5d3e5e191c5b411e8790e308
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   test/way_of_working/inclusive_language/generators/exec_test.rb:
     comments:
     reviewed_by: shilpigoeldev
-    safe_revision: 2a1ea98bc5724075c2d026181744315f458f0f35
+    safe_revision: cbe4ccee99e97402a6b17a3453d80fde37311328
   test/way_of_working/inclusive_language/generators/init_test.rb:
     comments:
     reviewed_by: timgentry

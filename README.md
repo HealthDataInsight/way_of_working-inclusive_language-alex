@@ -26,11 +26,15 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 To add [alex](https://alexjs.com) to your project, run the following at the command line:
 
-    way_of_working init inclusive_language
+```bash
+way_of_working init inclusive_language
+```
 
 to run alex in your project, run:
 
-    way_of_working exec inclusive_language
+```bash
+way_of_working exec inclusive_language
+```
 
 ## Development
 

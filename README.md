@@ -4,6 +4,9 @@
 [![HDI Way of Working](https://img.shields.io/badge/HDI-Way%20of%20Working-8169e3?labelColor=000)](https://healthdatainsight.github.io/way_of_working/)
 <!-- HDI Way of Working: Badge Holder End -->
 
+[![Gem Version](https://badge.fury.io/rb/way_of_working-inclusive_language-alex.svg)](https://badge.fury.io/rb/way_of_working-inclusive_language-alex)
+<br />
+
 Using insensitive and inconsiderate language can cause harm to others, create barriers to communication, and damage relationships. It can make people feel excluded, disrespected, and devalued and may perpetuate negative stereotypes and biases. When we use insensitive or offensive language, we undermine our ability to connect with others and build trust.
 
 Therefore, it is essential to be mindful of the impact of our words and to choose language that is respectful, inclusive, and considerate of others. Doing so can create a more welcoming and inclusive environment for everyone, fostering greater understanding, empathy, and cooperation.
@@ -12,15 +15,17 @@ This is a plugin for the [Way of Working](https://github.com/HealthDataInsight/w
 
 ## Installation
 
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```bash
+bundle add way_of_working-inclusive_language-alex
+```
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+```bash
+gem install way_of_working-inclusive_language-alex
+```
 
 ## Usage
 

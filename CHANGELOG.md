@@ -7,6 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Fixed the GitHub audit rule registration
+
+## [1.0.0] - 2024-10-24
+
 ### Added
 
 - Added alex inclusive language testing
+
+[Unreleased]: https://github.com/HealthDataInsight/way_of_working-inclusive_language-alex/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/HealthDataInsight/way_of_working-inclusive_language-alex/releases/tag/v1.0.0

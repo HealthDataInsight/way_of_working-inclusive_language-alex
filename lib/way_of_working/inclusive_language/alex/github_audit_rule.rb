@@ -29,8 +29,9 @@ module WayOfWorking
         end
       end
 
-      ::WayOfWorking::Audit::Github::Rules::Registry.register(GithubAuditRule,
-                        'Inclusive Language GitHub Action and README badge')
+      ::WayOfWorking::Audit::Github::Rules::Registry.register(
+        GithubAuditRule, 'Inclusive Language GitHub Action and README badge'
+      )
     end
   end
 end

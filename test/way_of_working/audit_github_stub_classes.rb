@@ -29,8 +29,12 @@ module WayOfWorking
             @status ||= valid?
           end
 
-          def tags
+          def self.tags
             [:way_of_working]
+          end
+
+          def tags
+            self.class.tags
           end
 
           # def readme_content

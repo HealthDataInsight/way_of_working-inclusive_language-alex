@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    way_of_working-inclusive_language-alex (1.0.0)
+    way_of_working-inclusive_language-alex (1.0.1)
       way_of_working (~> 2.0)
 
 GEM

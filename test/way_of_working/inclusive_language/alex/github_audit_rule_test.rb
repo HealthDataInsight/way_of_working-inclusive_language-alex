@@ -29,6 +29,7 @@ module WayOfWorking
           require 'way_of_working/inclusive_language/alex/github_audit_rule'
 
           assert ::WayOfWorking::Audit::Github::Rules::Registry.rules.values.include?(GithubAuditRule)
+          assert_equal [:way_of_working], GithubAuditRule.tags
         end
       end
     end

@@ -1,10 +1,5 @@
 # frozen_string_literal: true
 
-# require 'active_support'
-# require 'active_support/core_ext'
-# require 'base64'
-# require 'octokit'
-
 # This file provides simplified versions of the classes used by the GitHub audit rule registry
 # It deliberately avoids the Zeitwerk naming convention to ensure it isn't autoloaded.
 module WayOfWorking
@@ -36,21 +31,6 @@ module WayOfWorking
           def tags
             self.class.tags
           end
-
-          # def readme_content
-          #   @readme_content ||=
-          #     begin
-          #       response = @client.readme(@repo_name)
-
-          #       Base64.decode64(response.content)
-          #     rescue Octokit::NotFound
-          #       ''
-          #     end
-          # end
-
-          # def branch_rules(branch)
-          #   @client.get("repos/#{@repo.full_name}/rules/branches/#{branch}")
-          # end
         end
 
         # This provides the GitHub audit rule factory

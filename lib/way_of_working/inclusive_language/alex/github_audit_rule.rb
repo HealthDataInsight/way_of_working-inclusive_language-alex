@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'way_of_working/github_audit/rules/base'
+require 'way_of_working/audit/github/rules/base'
 
 module WayOfWorking
   module InclusiveLanguage

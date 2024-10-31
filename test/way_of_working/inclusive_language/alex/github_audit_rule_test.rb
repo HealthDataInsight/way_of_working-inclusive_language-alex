@@ -5,7 +5,7 @@ require 'test_helper'
 # This module prevents the LoadError when requiring the base class in the GitHub audit rule
 module OverrideRequire
   def require(path)
-    return if path == 'way_of_working/github_audit/rules/base'
+    return if path == 'way_of_working/audit/github/rules/base'
 
     super
   end

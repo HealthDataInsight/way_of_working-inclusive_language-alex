@@ -10,7 +10,7 @@ module WayOfWorking
         # This class tests the InclusiveLanguage::Exec Thor Group (generator)
         class ExecTest < Rails::Generators::TestCase
           tests WayOfWorking::InclusiveLanguage::Alex::Generators::Exec
-          destination WayOfWorking.root.join('tmp/generators')
+          destination WayOfWorking::InclusiveLanguage::Alex.root.join('tmp/generators')
 
           test 'generator runs without errors' do
             generator_class.any_instance.stubs(:run_alex).returns(true)

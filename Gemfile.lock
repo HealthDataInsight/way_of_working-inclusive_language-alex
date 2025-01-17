@@ -2,7 +2,8 @@ PATH
   remote: .
   specs:
     way_of_working-inclusive_language-alex (1.0.1)
-      way_of_working (~> 2.0)
+      way_of_working (~> 2.0.1)
+      zeitwerk (~> 2.6.18)
 
 GEM
   remote: https://rubygems.org/
@@ -234,7 +235,7 @@ GEM
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.6.0)
-    way_of_working (2.0.0)
+    way_of_working (2.0.1)
       activesupport
       git (~> 1.13)
       nokogiri
@@ -257,14 +258,13 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  activesupport (~> 7.0, >= 7.0.7.1)
+  activesupport (~> 7.0, >= 7.0.8.7)
   minitest (~> 5.0)
   mocha (~> 2.0)
   ndr_dev_support (>= 3.1.3)
-  railties (~> 7.0)
+  railties (~> 7.0, >= 7.0.8.7)
   rake (~> 13.0)
   way_of_working-inclusive_language-alex!
-  zeitwerk (~> 2.6.18)
 
 BUNDLED WITH
    2.5.18

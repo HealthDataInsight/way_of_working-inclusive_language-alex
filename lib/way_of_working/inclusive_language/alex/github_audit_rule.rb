@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require 'way_of_working/github_audit/rules/base'
+require 'way_of_working/audit/github/rules/base'
 
 module WayOfWorking
   module InclusiveLanguage
@@ -8,7 +8,7 @@ module WayOfWorking
     module Alex
       # This rule checks for the Inclusive Language workflow action and README badge.
       class GithubAuditRule < ::WayOfWorking::Audit::Github::Rules::Base
-        def valid?
+        def validate
           response = @client.workflows(@repo_name)
 
           unless response.workflows.map(&:name).include?('Inclusive Language')
@@ -18,8 +18,6 @@ module WayOfWorking
           @errors << 'Default branch is named "master"' if @repo.default_branch == 'master'
 
           @errors << 'No Inclusive Language README Badge' unless inclusive_language_badge?
-
-          @errors.empty? ? :passed : :failed
         end
 
         private
@@ -29,8 +27,9 @@ module WayOfWorking
         end
       end
 
-      ::WayOfWorking::Audit::Github::Rules::Registry.register(GithubActionAndBadge,
-                        'Inclusive Language GitHub Action and README badge')
+      ::WayOfWorking::Audit::Github::Rules::Registry.register(
+        GithubAuditRule, 'Inclusive Language GitHub Action and README badge'
+      )
     end
   end
 end

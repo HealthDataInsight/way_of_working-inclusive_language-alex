@@ -1,8 +1,9 @@
 # WayOfWorking::InclusiveLanguage::Alex
 
-<!-- HDI Way of Working: Badge Holder Start -->
-[![HDI Way of Working](https://img.shields.io/badge/HDI-Way%20of%20Working-8169e3?labelColor=000)](https://healthdatainsight.github.io/way_of_working/)
-<!-- HDI Way of Working: Badge Holder End -->
+<!-- Way of Working: Main Badge Holder Start -->
+![Way of Working Badge](https://img.shields.io/badge/Way_of_Working-v2.0.1-%238169e3?labelColor=black)
+<!-- Way of Working: Additional Badge Holder Start -->
+<!-- Way of Working: Badge Holder End -->
 
 [![Gem Version](https://badge.fury.io/rb/way_of_working-inclusive_language-alex.svg)](https://badge.fury.io/rb/way_of_working-inclusive_language-alex)
 <br />

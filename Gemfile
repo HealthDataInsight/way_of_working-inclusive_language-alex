@@ -6,6 +6,7 @@ source 'https://rubygems.org'
 gemspec
 
 gem 'activesupport', '~> 7.0', '>= 7.1.5.1'
+gem 'csv'
 gem 'minitest', '~> 5.0'
 gem 'mocha', '~> 2.0'
 gem 'ndr_dev_support', '>= 3.1.3'

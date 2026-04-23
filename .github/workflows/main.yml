@@ -17,14 +17,28 @@ jobs:
     strategy:
       matrix:
         ruby:
-          - '3.1.2'
+          - '3.2'
+          - '3.3'
+          - '3.4'
+          - '4.0'
 
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - name: Set up Ruby via mise
+        uses: jdx/mise-action@v2
         with:
-          ruby-version: ${{ matrix.ruby }}
-          bundler-cache: true
+          tool_versions: |
+            ruby ${{ matrix.ruby }}
+      - name: Cache bundler
+        uses: actions/cache@v4
+        with:
+          path: vendor/bundle
+          key: bundle-${{ runner.os }}-${{ matrix.ruby }}-${{ hashFiles('Gemfile.lock') }}
+          restore-keys: |
+            bundle-${{ runner.os }}-${{ matrix.ruby }}-
+      - name: Install gems
+        run: |
+          bundle config set --local path vendor/bundle
+          bundle install --jobs 4
       - name: Run the default task
         run: bundle exec rake
